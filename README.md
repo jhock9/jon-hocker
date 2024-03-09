@@ -1,11 +1,11 @@
 <h1 align="center">Hi 👋 I'm Jon Hocker</h1>
-<h3 align="center">Dedicated Web Developer from OKC blending people-oriented skills with a knack for creating clean, functional, and visually captivating websites.</h3>
+<h3 align="center">Full Stack Developer and founder of OK Web Studios in OKC, blending people-oriented skills with a knack for creating clean, functional, and visually captivating websites and apps!</h3>
 
-- 🔭 I’m currently working on [Interactive Flash Cards app for ABA-OK](https://www.abaco-op.org/)
+- 🔭 My latest project was an [Interactive Flash Cards app](https://okwebstudios.com/flashcards) for [ABA-OK](https://www.abaco-op.org/)
 
-- 🌱 I’m currently learning **React, MongoDB**
+- 🌱 I’m currently learning **React, AI Engineering**
 
-- 👨‍💻 All of my projects are available at [www.jonhocker.com](www.jonhocker.com)
+- 👨‍💻 Check out some of my other work at [www.okwebstudios.com](https://www.okwebstudios.com/#portfolio)
 
 - 📫 How to reach me **jon.hocker@gmail.com**
 
