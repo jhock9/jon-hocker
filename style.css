@@ -169,6 +169,12 @@ section {
   text-align: justify;
 }
 
+.about-description span {
+  font-style: italic;
+  font-weight: 600;
+  color: #15B3A6;  
+}
+
 .dev-icons-wrapper {
   width: 90%;
   flex-flow: row wrap;
