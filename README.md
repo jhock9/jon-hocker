@@ -1,15 +1,11 @@
 <h1 align="center">Hi 👋 I'm Jon Hocker</h1>
-<h3 align="center">Full Stack Developer and founder of OK Web Studios in OKC, blending people-oriented skills with a knack for creating clean, functional, and visually captivating websites and apps!</h3>
+<h3 align="center">Web Developer and founder of OK Web Studios in OKC, blending people-oriented skills with a knack for creating clean, functional, and visually captivating websites and apps!</h3>
 
-- 🔭 My latest project was an [Interactive Flash Cards app](https://okwebstudios.com/flashcards) for [ABA-OK](https://www.abaco-op.org/)
+- 🌱 Constantly learning new languages, frameworks, or libraries and staying up-to-date with the latest trends in tech.
 
-- 🌱 I’m currently learning **React, AI Engineering**
-
-- 👨‍💻 Check out some of my other work at [www.okwebstudios.com](https://www.okwebstudios.com/#portfolio)
+- 👨‍💻 Check out some of my other work at [www.jonhocker.com](https://www.jonhocker.com/#portfolio)
 
 - 📫 How to reach me **jon.hocker@gmail.com**
-
-- 📄 Know about my experiences [https://www.linkedin.com/in/jonhocker/](https://www.linkedin.com/in/jonhocker/)
 
 - ⚡ Fun fact **I have seven...yes...seven kids.**
 
@@ -49,4 +45,6 @@
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/></a> 
   <a href="https://webpack.js.org" target="_blank" rel="noreferrer"> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/d00d0969292a6569d45b06d3f350f463a0107b0d/icons/webpack/webpack-original-wordmark.svg" alt="webpack" width="40" height="40"/></a> 
+  <a href= "https://www.mongodb.com/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/></a> 
 </p>

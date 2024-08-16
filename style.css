@@ -1,4 +1,5 @@
-/* ----- Reset and Common Styles ----- */
+/* ============== BASE STYLES ============== */
+
 *{
   margin: 0;
   padding: 0;
@@ -22,13 +23,13 @@ html {
 }
 
 section {
-  padding: 8rem 0;
+  padding: 6rem 0;
   background-color: #fff;
   flex-direction: column;
 }
 
 .section-heading {
-  font-size: 4rem;
+  font-size: 5rem;
   color: #333;
   text-transform: uppercase;
   letter-spacing: 0.5rem;
@@ -37,14 +38,10 @@ section {
   text-shadow: 0.2rem 0.2rem 0.5rem #555;
 }
 
-/* ----- End of Reset and Common Styles ----- */
+/* ============== MOBILE STYLES ============== */
 
-/* ==========================================================================
-  Mobile Styles
-  ========================================================================== */
-
-/* ----- Hero Section ----- */
-.hero-section {
+/* ----- Hero ----- */
+#hero {
   height: calc(100vh - 4.2rem);
   background: 
     linear-gradient(
@@ -102,8 +99,6 @@ section {
   transform: skew(-10deg);
 }
 
-/* ----- End of Hero Section ----- */
-
 /* ----- Navbar ----- */
 .navbar {
   width: 100%;
@@ -116,7 +111,7 @@ section {
 }
 
 .navbar-link {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 600;
   color: #333;
   margin: 0 1.5rem;
@@ -152,9 +147,8 @@ section {
 .navbar-link:hover::before { 
   width: 130%;
 }
-/* ----- End of Navbar ----- */
 
-/* ----- About Section ----- */
+/* ----- About ----- */
 .about-wrapper {
   width: 90%;
   display: flex;
@@ -164,7 +158,7 @@ section {
 
 .about-description {
   width: 90%;
-  font-size: 2rem;
+  font-size: 2.2rem;
   color: #333;
   display: flex;
   flex-direction: column;  
@@ -182,7 +176,7 @@ section {
 
 .dev-icon,
 .dev-img {
-  max-width: 4rem;
+  max-width: 14rem;
   padding: 0 2rem;
   margin: 2rem 3rem;
   display: flex;
@@ -198,23 +192,21 @@ section {
   width: 4.5rem;
 }
 
-/* ----- End of About Section ----- */
-
-/* ----- Projects Section ----- */
-.projects-section {
+/* ----- Portfolio ----- */
+.portfolio-section {
   background-color: #eef;
   flex-direction: column;
 }
 
-.projects-wrapper {
+.portfolio-wrapper {
   width: 90%;
   flex-wrap: wrap;
 }
 
-.project {
+.portfolio {
   max-width: 40rem;
   max-height: 25rem;
-  margin: 1rem;
+  margin: 2rem;
   background-color: #fff;
   box-shadow: 0.3rem 0.3rem 0.5rem #777;
   display: flex;
@@ -226,11 +218,11 @@ section {
   transition: box-shadow 0.5s;
 }
 
-.project:hover {
+.portfolio:hover {
   box-shadow: 1rem 1rem 1rem #777;
 }
 
-.project-text {
+.portfolio-text {
   text-align: center;
   letter-spacing: 0.1rem;
   position: absolute;
@@ -238,36 +230,36 @@ section {
   z-index: 10;
 }
 
-.project:hover .project-text {
+.portfolio:hover .portfolio-text {
   top: 5rem;
   transition: top 0.3s 0.3s;
 }
 
-.project-name {
+.portfolio-name {
   font-size: 3rem;
   font-weight: 700;
   color: #333;
   text-transform: capitalize;
 }
 
-.project-tech {
+.portfolio-tech {
   font-size: 1.8rem;
   font-weight: 500;
   color: #15B3A6;
 }
 
-.project-img {
+.portfolio-img {
   width: 40rem;
   height: 25rem;
   object-fit: cover;
   transition: opacity 0.3s;
 }
 
-.project:hover .project-img {
+.portfolio:hover .portfolio-img {
   opacity: 0.2;
 }
 
-.project-button {
+.portfolio-button {
   font-size: 1.8rem;
   font-weight: 500;
   color: #333;
@@ -281,13 +273,12 @@ section {
   bottom: -5rem;
 }
 
-.project:hover .project-button {
+.portfolio:hover .portfolio-button {
   bottom: 5rem;
   transition: bottom 0.3s 0.3s;
 }
-/* ----- End of Projects Section ----- */
 
-/* ----- Contact Section ----- */
+/* ----- Contact ----- */
 .contact-section {
   background-color: #333;
   justify-content: space-evenly;
@@ -348,18 +339,13 @@ section {
   letter-spacing: 1rem;
   cursor: pointer;
 }
-/* ----- End of Contact Section ----- */
 
-/* ----- Footer Section ----- */
+/* ----- Footer ----- */
 .footer-wrapper {
   width: 100%;
-  padding: 5rem 0;
+  padding: 5rem 0 3rem 0;
   background: #222;
   flex-direction: column;
-}
-
-.social-media {
-  margin-bottom: 3rem;
 }
 
 .social-icon {
@@ -375,19 +361,6 @@ font-size: 4rem;
 color: #fff;
 }
 
-.resume {
-  font-size: 1.5rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  color: #15B3A6;
-  background-color: #333;
-  border: .3rem solid #15B3A6;
-  border-radius: .5rem;
-  padding: 0.5rem 3rem;
-  margin-bottom: 5rem;
-  letter-spacing: 0.3rem;
-}
-
 .copyright-wrapper {
   font-size: 1.5rem;
   font-weight: 300;
@@ -399,17 +372,16 @@ color: #fff;
 }
 
 .copyright {
-  margin-bottom: 2rem;
+  margin: 3rem 0;
 }
 
 .logo {
   width: 5rem;
+  margin: 0;
+  padding: 0;
 }
 
-/* ----- End of Footer Section ----- */
-
 /* ----- Thank You Page ----- */
-
 .thanks-wrapper {
   width: 80%;
   flex-direction: column;
@@ -437,33 +409,27 @@ color: #fff;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
 }
-/* ----- End of Thank You Page ----- */
 
-/* ==========================================================================
-  Media Queries for Responsive Design
-  ========================================================================== */
-
+/* ============== TABLET STYLES ============== */
 @media screen and (min-width: 768px) {
-  /**** TABLET STYLES ****/
-  
-  html {
+html {
     font-size: 62.5%; /* setting default font size to 10px */
   }
-
+  
   .section-heading {
     font-size: 5rem;
   } 
-
-  .hero-section {
+  
+  #hero {
     height: calc(100vh - 4.5rem);
   }
-
+  
   .hero-heading,
   .thanks-heading {
     font-size: 5rem;
     margin: 5rem 0;
   }
-
+  
   #not-mobile {
     display: initial;
   }
@@ -472,29 +438,28 @@ color: #fff;
   #mobile-bottom {
     display: none;
   }
-
+  
   .person-name {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin: 5rem 0;
   }
-
+  
   .navbar-link {
-    font-size: 1.7rem;
     margin: 0 3rem;
   }
-
+  
   .about-wrapper {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
-
+  
   .about-description {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
   
   .about-description p {
     margin-bottom: 3rem;
   }
-
+  
   .dev-icon i {
     font-size: 6rem;
   }
@@ -502,39 +467,38 @@ color: #fff;
   .icon-item {
     width: 5.3rem;
   }
-
-  .project {
+  
+  .portfolio {
     width: 47%;
   }
-
+  
   .contact-section #statement {
     font-size: 1.8rem;
     line-height: 2rem;
     padding-bottom: 1rem;
   }
-
+  
   .contact-section #statement br {
     display: none;
   }
-
+  
   .contact-form input, 
   .contact-form textarea {
     margin: 0.5rem 0;
     font-size: 1.8rem;
   }
-
+  
   .footer-wrapper {
     padding: 5rem 0;
   }
-
+  
   .dance-gif {
     width: 50%;
   }
 }
 
+/* ============== DESKTOP STYLES ============== */
 @media screen and (min-width: 1200px) {
-  /**** DESKTOP STYLES ****/
-
   .hero-heading,
   .thanks-heading {
     font-size: 6rem;
@@ -544,23 +508,23 @@ color: #fff;
     font-size: 1.7rem;
     border: 0.3rem solid #333;
   }
-
+  
   .about-wrapper {
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
   }
-
+  
   .about-description {
-    width: 70%;
+    width: 80%;
     font-size: 2rem;
   }
-
+  
   .dev-icon,
   .dev-img {
     max-width: 10rem;
     padding: 0 3rem;
     margin: 2rem 3rem;
   }
-
+  
   .dev-icon i {
     font-size: 10rem;
   }
@@ -568,34 +532,34 @@ color: #fff;
   .icon-item {
     width: 9rem;
   }
-
-  .project {
+  
+  .portfolio {
     width: auto;
   }
-
+  
   .contact-form input, 
   .contact-form textarea {
     font-size: 1.5rem;
   }
-
+  
   .contact-form textarea {
     min-height: 20rem;
   }
-
+  
   .thanks-section {
     padding-top: 5rem;
   }
-
+  
   .thanks-wrapper {
     justify-content: space-around;
     flex-flow: row wrap;
   }
-
+  
   .thanks-text,
   .gif-wrapper {
     width: 45%;
   }
-
+  
   .dance-gif {
     width: 60%;
   }  
