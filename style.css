@@ -198,18 +198,18 @@ section {
   width: 4.5rem;
 }
 
-/* ----- Portfolio ----- */
-.portfolio-section {
+/* ----- Examples ----- */
+.examples-section {
   background-color: #eef;
   flex-direction: column;
 }
 
-.portfolio-wrapper {
+.examples-wrapper {
   width: 90%;
   flex-wrap: wrap;
 }
 
-.portfolio {
+.examples {
   max-width: 40rem;
   max-height: 25rem;
   margin: 2rem;
@@ -224,11 +224,11 @@ section {
   transition: box-shadow 0.5s;
 }
 
-.portfolio:hover {
+.examples:hover {
   box-shadow: 1rem 1rem 1rem #777;
 }
 
-.portfolio-text {
+.examples-text {
   text-align: center;
   letter-spacing: 0.1rem;
   position: absolute;
@@ -236,36 +236,36 @@ section {
   z-index: 10;
 }
 
-.portfolio:hover .portfolio-text {
+.examples:hover .examples-text {
   top: 5rem;
   transition: top 0.3s 0.3s;
 }
 
-.portfolio-name {
+.examples-name {
   font-size: 3rem;
   font-weight: 700;
   color: #333;
   text-transform: capitalize;
 }
 
-.portfolio-tech {
+.examples-tech {
   font-size: 1.8rem;
   font-weight: 500;
   color: #15B3A6;
 }
 
-.portfolio-img {
+.examples-img {
   width: 40rem;
   height: 25rem;
   object-fit: cover;
   transition: opacity 0.3s;
 }
 
-.portfolio:hover .portfolio-img {
+.examples:hover .examples-img {
   opacity: 0.2;
 }
 
-.portfolio-button {
+.examples-button {
   font-size: 1.8rem;
   font-weight: 500;
   color: #333;
@@ -279,7 +279,7 @@ section {
   bottom: -5rem;
 }
 
-.portfolio:hover .portfolio-button {
+.examples:hover .examples-button {
   bottom: 5rem;
   transition: bottom 0.3s 0.3s;
 }
@@ -474,7 +474,7 @@ html {
     width: 5.3rem;
   }
   
-  .portfolio {
+  .examples {
     width: 47%;
   }
   
@@ -539,7 +539,7 @@ html {
     width: 9rem;
   }
   
-  .portfolio {
+  .examples {
     width: auto;
   }
   
